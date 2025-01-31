@@ -1,28 +1,24 @@
-# 🌲 Cypress, do Zero à Nuvem ☁️
+## Cypress, do Zero a Nuvem ☁️
+Um projeto do curso "Cypress do Zero a Nuvem", um curso da escola online Talking About Testing.
 
-👋 Seja bem-vindo(a)!
+## Pré-Requisitos
+É necessário ter o git, Node.js e o Npm instalados para clonar e executar esse projeto.
+As versões usadas foram `2.42.1`, `v20.13.1` e `10.8.1` do git, Node.js e npm respectivamente. Sugiro que use as mesmas versões ou as versões atualizadas até o momento.
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+## Instalação
 
-## O que você vai aprender?
+Execute `npm install` (ou `npm i`) para instalar as dependências de desenvolvimento.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+## Teste
+Neste projeto, é possível executar testes nas versões desktop e mobile.
 
-## Vamos começar?
+### Versão Desktop
+Execute `npm test` (ou `npm t` para a versão mais curta).
+Ou, executw `npm run cy:open` para abrir o Cypress App na versão desktop.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+### Versão Mobile
+Execute `npm test:mobile` para a execução 
+Ou, executw `npm run cy:open:mobile` para abrir o Cypress App na versão mobile.
 
-___
-
-Este é um curso da **Escola Talking About Testing**.
+## Suporte
+Se desejar apoiar este projeto, deixe uma ⭐️
